@@ -3,6 +3,9 @@ spring:
     url: jdbc:mysql://localhost:3306/gestion_commandes
     username: root
     password: ""
+    url: jdbc:mysql://localhost:3306/gestion_commandes_springboot
+    username: root
+    password:
 
   jpa:
     hibernate:
@@ -11,3 +14,4 @@ spring:
 
 server:
   port: 8080
+    show-sql: true
