@@ -52,3 +52,5 @@ public class UtilisateurServiceImpl implements UtilisateurService {
                 .map(u -> new UtilisateurDTO(u.getId(), u.getNom(), u.getEmail()))
                 .collect(Collectors.toList());
     }
+    }
+    }
